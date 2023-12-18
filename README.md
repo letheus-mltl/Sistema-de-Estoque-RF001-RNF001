@@ -48,7 +48,7 @@ CREATE TABLE tbcadastro (
 - Após isso você já estará conectado com o banco de dados, seguiremos com a aplicação agora.
 
 Passo 3: Usabilidade do site
-- No seu navegador você digitará o seguinte endereço: htto://localhost:80/crud/index.php
+- No seu navegador você digitará o seguinte endereço: httP://localhost:80/crud/index.php
 - Agora você visualizara uma página inicial de boas vindas e ao lado esquerdo terá um menu com 3 links: 
 	• Home (Página inicial de boas vindas)
 	• Cadastrar Produto (Nesta página abrirá um formulário para cadastrar um novo produto, nele você irá preencher todos os campos com a informação de um novo produto: nome, descrição, categoria, preço e quantidade. Após isso você deve clicar no botão "Cadastrar". Caso o produto seja cadastrado aparecerá uma mensagem em verde "Produto Cadastrado com Sucesso!", caso o produto não seja cadastrado deverá retornar a mensagem de erro.
