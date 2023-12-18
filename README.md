@@ -33,10 +33,9 @@ Passo 1: Instalação do XAMPP
 - Após a instalação você deverá inicializar o Apache (A porta que utilizei foi a 80 mas você pode definir a porta de sua preferência) e o MySQL (A porta utilizada foi a padrão 3306).
 - Agora você irá até o explorador de arquivos e acessará o seguinte endereço: C:\xampp\htdocs . Nesta pasta você irá colar a pasta 'crud' disponilizada na área de trabalho.
 
-Passo 2: Importação da tabela 'tbcadastro'
+Passo 2: Importação do banco de dados 'bdproduto'
 - No seu navegador você digitará o seguinte endereço: http://localhost:80/phpmyadmin.php (Atenção: se a sua porta configurada no XAMPP não for a porta 80 você deverá substituir no link pela porta escolhida.)
-- Você criará um banco de dados chamado 'bdcadastro'
-- Após isso você irá na opção "IMPORTAR" e escolherá o aquivo que disponibilizei na pasta zip 'tbcadastro.sql'. Caso de algum erro na importação da tabela, você mesmo pode criar a tabela e dar o nome de 'tbcadastro', mas se atente em seguir exatamente como mostra a estrutura abaixo:
+- Após isso você irá na opção "IMPORTAR" e escolherá o aquivo que disponibilizei na pasta zip 'bdproduto.sql'. Caso de algum erro na importação da bando de dados/tabela, você mesmo pode criar o banco de dados chamado 'bdproduto' e criar uma tabela e dar o nome de 'tbcadastro', mas se atente em seguir exatamente como mostra a estrutura abaixo:
 CREATE TABLE tbcadastro (
     cd_produto INT AUTO_INCREMENT PRIMARY KEY,
     nm_produto VARCHAR(50) NOT NULL,
